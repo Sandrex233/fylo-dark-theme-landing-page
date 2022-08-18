@@ -1,4 +1,15 @@
 body {
     background: hsl(218, 28%, 13%);
+    margin: 0;
     height: 100vh;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.fylo__header {
+    background: hsl(219, 30%, 18%);
+    height: 90vh;
 }

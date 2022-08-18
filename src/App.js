@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Features, Footer, Testimonial, Team, StayProductive } from './containers';
-import { CTA, Signin, Navbar } from './components';
+import { Signin, Navbar } from './components';
 
 import './App.css';
 
@@ -9,11 +9,10 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <div>
+            <div className='fylo__header'>
                 <Navbar />
                 <Testimonial />
             </div>
-            <CTA />
             <Features />
             <StayProductive />
             <Team />

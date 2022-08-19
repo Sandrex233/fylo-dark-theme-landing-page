@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
 body {
     background: hsl(218, 28%, 13%);
-    margin: 0;
     height: 100vh;
 }
 
@@ -11,5 +17,11 @@ a {
 
 .fylo__header {
     background: hsl(219, 30%, 18%);
-    height: 90vh;
+    height: 100vh;
+}
+
+@media screen and (max-width: 550px) {
+    .fylo__header {
+        height: 78.5vh;
+    }
 }

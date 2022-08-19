@@ -1,0 +1,26 @@
+.fylo__features-container {
+    justify-items: center;
+    align-items: center;
+    margin-top: 8em;
+    /*  column-gap: 10px;
+    row-gap: 15px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.fylo__features_anywhere img {
+    width: 150px;
+}
+
+.fylo__features_security img {
+    width: 150px;
+}
+
+.fylo__features_collaboration img {
+    width: 150px;
+}
+
+.fylo__features_anyfiles img {
+    width: 150px;
+}

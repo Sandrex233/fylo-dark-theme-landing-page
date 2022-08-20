@@ -130,7 +130,6 @@
     position: relative;
     left: -2em;
     top: 1.75em;
-    overflow: hidden;
 }
 
 .fylo__footer-social {
@@ -163,10 +162,17 @@
         padding: 2.5em;
     }
 
-    /* .fylo__footer-social {
+    .fylo__footer-social {
         position: relative;
         left: 8em;
-    } */
+    }
+
+    .fylo__footer-location p {
+        font-size: 0.9em;
+
+
+    }
+
 
 
 }

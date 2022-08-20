@@ -1,0 +1,11 @@
+.fylo__signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7em;
+    left: 30em;
+    background: hsl(217, 28%, 15%);
+    width: 50vw;
+    height: 25vh;
+}

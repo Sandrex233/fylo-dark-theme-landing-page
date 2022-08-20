@@ -62,4 +62,8 @@ a:hover {
     .fylo__stayproductive-image img {
         width: 350px;
     }
+
+    .fylo__stayproductive-container p {
+        font-size: .8em;
+    }
 }

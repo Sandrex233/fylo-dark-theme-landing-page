@@ -75,15 +75,18 @@ button:hover {
 
 
 
+
 @media screen and (min-width: 550px) {
     .background-mobile img {
         display: none;
     }
 }
 
+
+
 @media screen and (max-width: 550px) {
     .background-illustration img {
-        width: 380px;
+        width: 375px;
     }
 
     .background-desktop img {
@@ -92,9 +95,9 @@ button:hover {
 
     .background-mobile img {
 
-        height: 30vh;
+        height: 19vh;
         position: absolute;
-        top: 65%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 0;
@@ -109,4 +112,14 @@ button:hover {
         font-size: .91em;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+    .background-mobile img {
+
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
 }

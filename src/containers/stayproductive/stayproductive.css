@@ -5,6 +5,10 @@
     margin-top: 10em;
 }
 
+.fylo__stayproductive-container {
+    margin-left: 3em;
+}
+
 .fylo__stayproductive-container h1 {
     font-family: var(--font-raleway);
     font-size: 1.5em;
@@ -22,28 +26,40 @@
 }
 
 .fylo__stayproductive-link a {
-    border-bottom: 2px solid;
+    border-bottom: 2.5px solid;
     font-size: .9em;
     color: hsl(176, 68%, 64%);
     font-family: var(--font-open-sans);
     font-weight: 400;
-
+    display: block;
+    line-height: 25px;
+    width: 10.47em;
 }
 
 
 a img {
     margin: auto;
-    vertical-align: middle;
+    vertical-align: -.2em;
     display: inline-block;
 }
 
 
 
-a {
-    margin-top: 5em;
-}
+
 
 a:hover {
     color: #cecece;
     filter: grayscale(100%);
+}
+
+
+@media screen and (max-width: 550px) {
+    .fylo__stayproductive {
+        margin-top: 15em;
+        flex-direction: column;
+    }
+
+    .fylo__stayproductive-image img {
+        width: 350px;
+    }
 }

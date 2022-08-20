@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Arrow from './../../assets/images/icon-arrow.svg'
 import StayProductiveImage from './../../assets/images/illustration-stay-productive.png'
 

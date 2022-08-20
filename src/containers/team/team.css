@@ -1,0 +1,142 @@
+.fylo__team {
+    margin-top: 7em;
+}
+
+.fylo__team-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 2em;
+    text-align: justify;
+}
+
+
+.fylo__team-profile1 {
+
+    background-color: hsl(219, 30%, 18%);
+    padding: 2.5rem 2.5rem 1.5rem;
+}
+
+.fylo__team-profile2 {
+    background-color: hsl(219, 30%, 18%);
+    padding: 2.5rem 2.5rem 1.5rem;
+}
+
+.fylo__team-profile3 {
+    background-color: hsl(219, 30%, 18%);
+    padding: 2.5rem 2.5rem 1.5rem;
+}
+
+.fylo__team-container p {
+    font-size: .9em;
+    color: #cecece;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.fylo__team-profile1 img {
+    margin-top: 1.7em;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.fylo__team-profile2 img {
+    margin-top: 1.7em;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.fylo__team-profile3 img {
+    margin-top: 1.7em;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.fylo__team-quotes {
+    position: relative;
+    top: -90px;
+    left: -45px;
+    margin-bottom: -4em;
+}
+
+
+
+.fylo__team-profile1_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.75em;
+    margin-left: 3em;
+    line-height: 1.2em;
+}
+
+
+.fylo__team-profile2_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.75em;
+    margin-left: 3em;
+    line-height: 1.2em;
+}
+
+.fylo__team-profile3_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.75em;
+    margin-left: 3em;
+    line-height: 1.2em;
+}
+
+.fylo__team-container h4 {
+    color: hsl(0, 0%, 100%);
+    font-family: var(--font-open-sans);
+
+}
+
+.fylo__team-container h6 {
+    color: #cecece;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: .7em;
+}
+
+@media screen and (max-width: 375px) {
+    .fylo__team-profile1 {
+
+        padding: 1rem 1.5rem;
+    }
+
+    .fylo__team-profile2 {
+        padding: 1rem 1.5rem;
+    }
+
+    .fylo__team-profile3 {
+        padding: 1rem 1.5rem;
+    }
+
+    .fylo__team-quotes {
+        position: relative;
+        top: -70px;
+        left: -25px;
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .fylo__team-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 2em;
+
+    }
+
+    .fylo__team {
+        margin-top: 15em;
+    }
+
+
+}

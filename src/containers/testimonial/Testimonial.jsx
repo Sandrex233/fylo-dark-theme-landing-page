@@ -28,7 +28,7 @@ const Testimonial = () => {
                 </p>
             </div>
             <div className='fylo__testimonial-button'>
-                <a href="/features"><button>Get started</button></a>
+                <a href="/#features"><button>Get started</button></a>
             </div>
         </div >
     )

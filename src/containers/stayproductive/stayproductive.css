@@ -1,0 +1,49 @@
+.fylo__stayproductive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.fylo__stayproductive-container h1 {
+    font-family: var(--font-raleway);
+    font-size: 1.5em;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0.8em;
+}
+
+.fylo__stayproductive-container p {
+    font-size: .9em;
+    color: #cecece;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.fylo__stayproductive-link a {
+    border-bottom: 2px solid;
+    font-size: .9em;
+    color: hsl(176, 68%, 64%);
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+
+}
+
+
+a img {
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+a {
+    margin-top: 5em;
+}
+
+a:hover {
+    color: #cecece;
+    filter: grayscale(100%);
+}

@@ -1,10 +1,11 @@
 import React from 'react'
-import './features.css'
 
 import anywhere from './../../assets/images/icon-access-anywhere.svg'
 import security from './../../assets/images/icon-security.svg'
 import collaboration from './../../assets/images/icon-collaboration.svg'
 import anyfiles from './../../assets/images/icon-any-file.svg'
+
+import './features.css'
 
 const Features = () => {
     return (

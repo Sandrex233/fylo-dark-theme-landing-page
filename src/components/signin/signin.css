@@ -1,11 +1,64 @@
 .fylo__signin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    top: 7em;
     left: 30em;
-    background: hsl(217, 28%, 15%);
+    top: 8em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
     width: 50vw;
-    height: 25vh;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fylo__signin-form button {
+
+    background-color: hsl(198, 60%, 50%);
+    margin-top: 1.1em;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    width: 200px;
+    height: 50px;
+    border-radius: 10rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.fylo__signin-form button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.fylo__signin-text h1 {
+    text-align: center;
+    font-family: var(--font-raleway);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    white-space: pre-line;
+    font-size: 2.5em;
+    margin-top: 0.7em;
+}
+
+.fylo__signin-form form {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". .";
+    margin-left: 8em;
+}
+
+.fylo__signin-text p {
+    margin: 1em;
+    color: #cecece;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 1rem;
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 import quotes from './../../assets/images/bg-quotes.png'
 import profile1 from './../../assets/images/profile-1.jpg'
 import profile2 from './../../assets/images/profile-2.jpg'

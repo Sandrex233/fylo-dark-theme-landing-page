@@ -54,7 +54,7 @@
 }
 
 
-button {
+.fylo__testimonial-button button {
     background-color: hsl(198, 60%, 50%);
     margin-top: 2em;
     font-family: var(--font-raleway);
@@ -69,7 +69,7 @@ button {
 
 }
 
-button:hover {
+.fylo__testimonial-button button:hover {
     background-color: hsl(176, 68%, 64%);
 }
 

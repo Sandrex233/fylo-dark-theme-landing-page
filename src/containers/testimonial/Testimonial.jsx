@@ -2,6 +2,7 @@ import React from 'react'
 import Illustration from './../../assets/images/illustration-intro.png'
 import background from './../../assets/images/bg-curvy-desktop.svg'
 import backgroundMobile from './../../assets/images/bg-curvy-mobile.svg'
+
 import './testimonial.css'
 
 const Testimonial = () => {
@@ -28,7 +29,7 @@ const Testimonial = () => {
                 </p>
             </div>
             <div className='fylo__testimonial-button'>
-                <a href="/#features"><button>Get started</button></a>
+                <button>Get started</button>
             </div>
         </div >
     )

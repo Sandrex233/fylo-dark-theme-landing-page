@@ -1,8 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+import FormInput from '../forminput/FormInput'
 
 import './signin.css'
 
 const Signin = () => {
+    const [values, setValues] = useState({
+        Email: ""
+    });
+
+    const inputs = [
+        {
+            id: 1,
+            name: 'Email',
+            type: 'email',
+            placeholder: 'example@example.com',
+            errorMessage: "Please enter a valid email address",
+            required: true,
+        },
+    ]
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
+    const onChange = (e) => {
+        setValues({ ...values, [e.target.name]: e.target.value })
+    }
+
+
     return (
         <div className='fylo__signin'>
             <div className="fylo__signin-text">
@@ -12,8 +39,18 @@ const Signin = () => {
                 </p>
             </div>
             <div className="fylo__signin-form">
-                <input type="text" />
-                <button>Get Started For Free</button>
+                <form onSubmit={handleSubmit}>
+                    {inputs.map((input) => (
+                        <FormInput
+                            key={input.id}
+                            {...input}
+                            value={values[input.name]}
+                            onChange={onChange} />
+                    ))}
+
+                    <button>Get Started For Free</button>
+
+                </form>
             </div>
         </div>
     )

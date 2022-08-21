@@ -62,3 +62,121 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+
+@media screen and (max-width: 1440px) {
+    .fylo__signin {
+        position: relative;
+        left: 19.5em;
+    }
+
+    .fylo__signin-form button {
+        font-size: 0.9em;
+        width: 170px;
+        position: relative;
+        left: -5em;
+    }
+
+
+
+    .fylo__signin-text h1 {
+        font-size: 2em;
+        margin-top: 0.7em;
+    }
+
+
+
+    .fylo__signin-text p {
+        margin: 2.45em;
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .fylo__signin {
+        position: relative;
+        left: 15em;
+    }
+
+    .fylo__signin-form button {
+        width: 150px;
+        position: relative;
+        left: -4em;
+
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    .fylo__signin {
+        position: relative;
+        left: 12em;
+    }
+
+    .fylo__signin-form button {
+        width: 100px;
+        position: relative;
+        left: -5em;
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .fylo__signin {
+        position: relative;
+        left: 2.5em;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .fylo__signin-form button {
+        width: 250px;
+        position: relative;
+        left: -5em;
+        font-size: 0.8em;
+    }
+
+    .fylo__signin-form form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+
+    .fylo__signin-form button {
+        width: 200px;
+        position: relative;
+        left: -5em;
+        top: -.2em;
+        font-size: 0.8em;
+        height: 45px;
+    }
+
+    .fylo__signin-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fylo__signin-text h1 {
+        font-size: 1.5em;
+    }
+
+
+
+    .fylo__signin-text p {
+        font-size: 0.761rem;
+        text-align: center;
+        margin: .8em;
+    }
+
+
+}

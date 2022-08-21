@@ -45,47 +45,121 @@ input:invalid[focused="true"]~span {
 
 
 
-@media only screen and (max-width: 580px) {
+
+
+
+@media screen and (max-width: 1440px) {
     .formInput {
-        position: absolute;
         display: flex;
-        flex-direction: row;
-        margin: 8px;
-        width: 300px;
-
-        left: -770px;
+        flex-direction: column;
+        margin: 4px;
+        width: 350px;
+        position: relative;
+        left: -5em;
     }
-
-
 
 
     input {
-        border-radius: 20px;
 
+        padding: 20px;
+        margin: 10px 0px;
+        border-radius: 20px;
+        border: 1px solid gray;
+        height: 50px;
     }
 
     input::placeholder {
-        color: hsl(279, 6%, 55%);
-        font-family: var(--font-open-sans);
         font-size: 14px;
 
     }
 
+    span {
+        font-size: 11px;
+        margin-right: 12em;
+    }
+}
 
+@media screen and (max-width: 1080px) {
+    .formInput {
+        width: 250px;
+        position: relative;
+        left: -5em;
+    }
+
+
+    input {
+
+        padding: 20px;
+        margin: 10px 0px;
+        border-radius: 20px;
+        border: 1px solid gray;
+        height: 50px;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+
+    }
 
     span {
-        font-size: 13px;
-        margin-bottom: 2px;
-        color: hsl(0, 100%, 66%);
-        display: none;
-        font-family: var(--font-open-sans);
+        font-size: 11px;
+        margin-right: 5em;
     }
 
+}
 
-
-
-    input:invalid[focused="true"]~span {
-        display: block;
+@media screen and (max-width: 750px) {
+    .formInput {
+        width: 200px;
+        position: relative;
+        left: -5em;
     }
 
+    input::placeholder {
+        font-size: 11px;
+
+    }
+
+    span {
+        font-size: 10px;
+        margin-right: 3em;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .formInput {
+        width: 250px;
+        position: relative;
+        left: -4.2em;
+    }
+
+    span {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .formInput {
+        width: 200px;
+        height: 60px;
+    }
+
+    span {
+        font-size: 10px;
+        margin-right: 1em;
+
+        margin-top: -5px;
+    }
+
+    input {
+        height: 45px;
+        margin: 5px 0px;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
 }

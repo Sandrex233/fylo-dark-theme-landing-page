@@ -34,7 +34,7 @@ const Signin = () => {
         <div className='fylo__signin'>
             <div className="fylo__signin-text">
                 <h1>Get early access today</h1>
-                <p>it only takes a minute to sign up and our free starter tier is extremely generous. If uoi have any <br />
+                <p>it only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br />
                     questions, our support team would be happy to help you.
                 </p>
             </div>

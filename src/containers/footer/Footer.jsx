@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <div className='fylo__footer'>
             <div className="fylo__footer-container">
-                <img src={logo} className="footer-logo" />
+                <img src={logo} alt="" className="footer-logo" />
                 <div className="fylo__footer-location">
                     <img src={location} alt="location" />
                     <p>Lorem ipsum dolor sit amet, consectetur <br />

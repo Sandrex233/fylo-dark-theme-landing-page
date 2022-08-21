@@ -14,7 +14,7 @@ const Team = () => {
             <div className="fylo__team-container">
                 <div className="fylo__team-profile1">
                     <div className="fylo__team-quotes">
-                        <img src={quotes} />
+                        <img src={quotes} alt="" />
                     </div>
                     <p>Fylo has improved our team productivity by <br />
                         an order of magnitude. Since making the <br />

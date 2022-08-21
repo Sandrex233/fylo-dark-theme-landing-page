@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='fylo__navbar'>
             <div className='fylo__navbar-links'>
                 <div className='fylo__navbar-logo'>
-                    <a href="/"><img src={logo} /></a>
+                    <a href="/"><img src={logo} alt=""/></a>
                 </div>
             </div>
             <div className='fylo__navbar-links_container'>

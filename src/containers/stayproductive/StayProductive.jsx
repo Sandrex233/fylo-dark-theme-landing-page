@@ -22,7 +22,7 @@ const StayProductive = () => {
                     collaboration. No email attachments required.
                 </p>
                 <div className='fylo__stayproductive-link'>
-                    <a href="/">See how Fylo works <img src={Arrow} className="stayproductive-arrow" /></a>
+                    <a href="/">See how Fylo works <img src={Arrow} alt="" className="stayproductive-arrow" /></a>
                 </div>
             </div>
         </div>

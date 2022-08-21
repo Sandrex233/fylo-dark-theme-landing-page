@@ -10,15 +10,15 @@ const Testimonial = () => {
         <div className='fylo__testimonial'>
             <div className='fylo__testimonial-image'>
                 <div className='background-illustration'>
-                    <img src={Illustration} />
+                    <img src={Illustration} alt="" />
                 </div>
             </div>
             <div className='fylo__testimonial-background'>
                 <div className="background-desktop">
-                    <img src={background} />
+                    <img src={background} alt="" />
                 </div>
                 <div className="background-mobile">
-                    <img src={backgroundMobile} />
+                    <img src={backgroundMobile} alt="" />
                 </div>
             </div>
             <div className='fylo__testimonial-text'>
